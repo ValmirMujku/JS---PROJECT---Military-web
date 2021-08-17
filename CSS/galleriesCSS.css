@@ -1,0 +1,324 @@
+@font-face {
+	font-family:an;
+	src: url('anivers.otf');
+
+}
+
+@media screen and (max-width: 800px) {
+  .nav ul,.nav li {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+body{
+    background-color: #4e4a3e;
+ }
+
+ /* PJESA E PARE  */
+ 
+.nav ul {
+  position: relative;
+  list-style: none;
+  background-color: #4e4a3e;
+  text-align: center;
+  margin: -8px;
+  padding-right: 30px;
+  padding-bottom: 2px;
+  padding-top: 7px;
+  border:2px solid black;
+}
+
+  .nav li {
+    width: 166 px; /*165*/
+    border-bottom: none;
+    margin-top: -7px;
+    margin-bottom: -1px;
+    display: inline-block;
+    margin-right: -4px;
+    font-family:an;
+    font-size: 21px;
+    line-height: 40px;
+    padding-right:50px;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: #d9cb9e;
+    display: block;
+    transition: .3s background-color;
+  }
+
+  .nav a:hover {
+    background-color:#b9a260;;
+  
+  }
+
+  .nav a.active {
+
+    color: #444;
+    cursor: default;
+  }
+
+
+  /* SECOND PART  */
+
+  body, html {
+    font-family:an;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(41, 33, 33, 0.5), rgba(20, 10, 0, 15)), url("../images/armysniper2.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+     margin-left: -8px; 
+    margin-right: -8px;
+    padding-top: 300px;
+    margin-top: 8px;
+    
+  }
+
+  
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #bea3a3;
+    font-family:unset;
+    text-shadow: 5px 5px #0c0b0b;
+    
+  }
+
+
+  /* third part photos */
+  
+  #h2army{
+    background-image: linear-gradient(rgba(82, 66, 66, 0.5), rgba(20, 10, 0, 15));
+    color:#b9a260;
+    text-align:center;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     margin:0px -7px 10px -8px;
+}
+ 
+* {
+    box-sizing: border-box;
+  }
+  
+ .row > .column {
+    padding: 0 8px;
+ }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ 
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+    font-size: 60px;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #020000;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  img {
+    margin-bottom: -5px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 10;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  /* //footeri */
+
+  .footer{
+    background-image: linear-gradient(rgba(66, 75, 68, 0.5), rgba(20, 10, 0, 15));
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  
+  .footer h2{
+    text-align: center;
+    font-family: an;
+    text-decoration: overline;
+    color:#d9cb9e;
+    
+  }
+  
+  .footer #f2{
+    color:red;
+    text-shadow: 2px 2px #000000;
+ 
+  }
+  
+  .fa-user-shield{
+    color :black;
+  }
+  .footer img{
+    width: 160 px;
+    height: 160px;
+    float: left;
+    padding-left: 50px;
+  }
+
+  #img2{
+    float:right; 
+    padding-right: 50px;
+  }
+  
+  .footer h3{
+    padding-left: 400px;
+    padding-top: -200px;
+  }
+   
+ 
+  
+  .footer #f1{
+    color:#d9cb9e;
+  }   
+  
+  .footer #kk{
+    float:right;
+    padding-left: 10px;  
+  }
+  
+  .hero-image a:link{
+    text-decoration: none;  
+   
+  }
+  
+   hr{
+    margin-left:-7px;
+    margin-right: -7px;
+    color:red;
+  } 
+
+  .infos{
+    text-align: center;
+    color:rgb(161, 125, 125)
+  }
+
+  #star6{
+      color:#d9cb9e;
+      padding-right: 700px;
+  }
+
+ 

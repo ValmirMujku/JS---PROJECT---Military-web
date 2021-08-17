@@ -1,0 +1,267 @@
+@font-face {
+	font-family:an;
+	src: url('anivers.otf');
+
+}
+
+body{
+    /* background-color:#4e4a3e; */
+    background-image: url(../images/bck6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    }
+
+   #flag{
+       padding-left:500px ;
+   }
+
+.first h1{
+    text-align: center;
+    font-size: 55px;
+    text-decoration: underline overline;
+    font-family: an;
+    color: #f8f9ff;  
+    text-shadow: 2px 2px #000000;
+}
+
+.fa-star{
+    color:#b9a260;
+    text-shadow: none;
+  }
+
+
+  #h3id{
+      font-family: an;
+      margin-left: -40px;
+      color:#b9a260;
+      text-decoration: underline;
+      font-size: 30px;
+      text-align: center;
+  }
+
+  /* beaware part */
+  .beAware{
+      text-align: center;
+      color:rgb(255, 0, 0);
+      font-size: 15px;
+      font-family: an;
+      text-shadow: 2px 2px #000000;
+      padding-top: -15px;
+             
+  }
+
+  .attention h2{
+    font-family: an;
+    color:red;
+    text-align: center; 
+    text-shadow: 2px 2px #000000;
+}
+
+.square{
+    border: 6px solid red;
+    margin-left: 200px; 
+    margin-right: 200px;
+        background-color: rgb(5, 0, 0);
+    height: 130px;
+}
+
+  /* Submit Forma */
+
+  .fa-square{
+      color:red;
+  }
+  .applyForm{
+      margin-top: 30px;
+      margin-left: 30%;
+  }
+
+  .applyForm label{
+      padding-right: 50px;
+      margin-top: 10px;
+      font-size: 20px;
+      font-family: an;
+      color: #d9cb9e;
+      text-shadow: 2px 2px #000000;
+  }
+
+  .applyForm input {
+      margin-top: 30px;
+      width: 200px;
+      height: 22px;
+      border-radius: 25px 25px 25px 25px;
+      border:1px solid black;
+  }
+  
+  .applyForm #birthday{
+      margin-left: 20px;
+      width: 203px;
+      height: 25px;
+  }
+
+  .applyForm #idCard{
+    margin-left: -3px;
+  }
+
+  /* Selekto shtetin  */
+  .applyForm select{
+    margin-top: 30px;
+      margin-left: 45px;
+      width: 209px;
+      height: 27px;
+      border-radius: 25px 25px 25px 25px;
+  }
+
+  /* Phone Number */
+
+  .applyForm #phoneNumber{
+      margin-left: -31px;
+  }
+
+  .applyForm #email{
+      margin-left: 36px;
+  }
+
+  /* Me selektu gjinine(div i veqant)  */
+  .selectGender{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .selectGender input{
+      height: 15px;
+  }
+
+  .selectGender label{
+      margin-left: -60px;
+      font-size: 15px;
+   }
+
+   /* Gjinia nese answer eshte NO */
+   .diseases{
+    margin-top: 15px;
+   }
+
+   .diseases input{
+       height: 15px;
+       margin-left: -96px;
+   }
+
+   .diseases #did{
+       font-size: 15px;
+       margin-left: -60px;
+   }
+
+   /* Gjinia nese answer eshte YES */
+   
+   .applyForm #yesid{
+       margin-left: 145px;
+       font-size: 15px;
+       color: #d9cb9e;
+   }
+
+   .applyForm textarea{
+    margin-left: 145px;
+    height: 100px;
+    width: 209px;
+    
+   }
+
+
+   /* terms and conditions  */
+   .applyForm #terms{
+       margin-left: -90px;
+       color:white;
+       }
+
+   .applyForm #termsCon{
+    font-size: 11px;    
+    position: absolute;
+    width: 250px;
+    text-align: justify;
+    color:black;
+    color:white;
+   }
+
+   .applyForm #termsCon2{
+    font-size: 11px;    
+    position: absolute;
+    width: 250px;
+    text-align: justify;
+    color:black;
+    margin-top: 100px;
+    color:white;
+   }
+
+   .applyForm #terms2{
+    margin-left: -90px;
+    margin-top: 120px;
+    color:white;
+    }
+
+   
+
+  /* submit butoni */
+    .applyForm button{
+        margin-top: 380px;
+        margin-left: 265px;
+        font-family: an;
+        font-size: 20px;
+        padding: 4px 20px;
+        border-radius: 25px 25px 25px 25px;
+        background-color: #e2cea2; 
+        
+    }
+
+  
+    .applyForm button:hover {
+        background:#b9a260;;
+      }
+
+    .applyForm hr{
+        margin-right: 560px;
+    }
+
+    /* dizajn per span */
+
+    .applyForm span{
+        color: red;
+        font: 12px;
+        margin-left: 10px;
+        font-family: an;
+        background-color: black;
+    }
+
+    
+  
+    .applyForm #termsError, #terms2Error{
+        margin-left: 260px; 
+    }
+
+    .fa-exclamation-triangle{
+        color:red;
+    }
+  
+
+    .stopTextArea{
+        pointer-events: none;
+        background-color: #a19a83;
+    }
+
+    .remove{
+        display: none;
+    }
+
+    input:hover{
+        color:red;
+    }
+
+
+  
+      
+      input:hover {
+        background-color:#b9a260;
+      }
+
+   

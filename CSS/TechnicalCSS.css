@@ -1,0 +1,48 @@
+@font-face {
+	font-family:an;
+	src: url('anivers.otf');
+
+}
+
+body{
+    /* background-color:#4e4a3e; */
+    background-image: url(../images/bck8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.submittedForm{
+    width: 960px;
+    height:380px;
+    border: 1px solid rgb(223, 211, 211);
+    margin: auto;
+    margin-top: 160px; 
+    background-color: black;
+     
+}
+
+.submittedForm h1{
+    font-family: an;
+    text-align: center;
+    color:white;
+     text-decoration: underline;
+}
+
+.submittedForm h5{
+    text-align: center;
+    color:red;
+}
+
+.submittedForm h4{
+    text-align: justify;
+    font-family: an;
+    color:white;
+}
+
+.submittedForm p{
+    text-align: center;
+    color: red;
+    font-family: an;
+}

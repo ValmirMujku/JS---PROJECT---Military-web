@@ -1,0 +1,285 @@
+@font-face {
+	font-family:an;
+	src: url('anivers.otf');
+
+}
+
+@media screen and (max-width: 800px) {
+  .nav ul,.nav li {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+ 
+
+ /* PJESA E PARE  */
+ 
+.nav ul {
+  position: relative;
+  list-style: none;
+  background-color: #4e4a3e;
+  text-align: center;
+  margin: -8px;
+  padding-right: 30px;
+  padding-bottom: 2px;
+  padding-top: 7px;
+  border:2px solid black;
+}
+
+  .nav li {
+    width: 166 px; /*165*/
+    border-bottom: none;
+    margin-top: -7px;
+    margin-bottom: -1px;
+    display: inline-block;
+    margin-right: -4px;
+    font-family:an;
+    font-size: 21px;
+    line-height: 40px;
+    padding-right:50px;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: #d9cb9e;
+    display: block;
+    transition: .3s background-color;
+  }
+
+  .nav a:hover {
+    background-color:#b9a260;;
+  
+  }
+
+  .nav a.active {
+
+    color: #444;
+    cursor: default;
+  }
+
+  /* //second part */
+
+  .contactimages {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(20, 10, 0, 15)), url("../images/contactus4.jpg");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+     margin-left: -8px; 
+    margin-right: -8px;
+    padding-top: 500px;
+    margin-top: 8px;
+     
+    
+  }
+
+  /* part three  */
+
+  * {box-sizing: border-box}
+
+ 
+.tablink {
+  background-color: #555;
+  color: white;
+  float:right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 18px;
+  font-size: 23px;
+  width:50%;
+ 
+  font-family: an;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+ 
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  margin-left: -8px;
+  margin-right: -8px; 
+  font-family: an;
+}
+
+#feedback1 {background-color: rgb(32, 27, 27);}
+#feedback2 {background-color: rgb(32, 27, 27);}
+
+/* submitforma */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+        resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #1e2220;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ff0000;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgb(32, 27, 27);;
+    padding: 20px;
+  }
+ 
+
+  /* VALIDIMI */
+  .validation-error {
+    color: red;
+    font-size: 15px;
+    display: block;
+}
+
+.no-display {
+    display: none;
+}
+
+/* PJESA 4 */
+
+ 
+body, html {
+    
+  
+    font-family:an;
+  }
+ 
+.hero-image {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(20, 10, 0, 15)), url("../images/applyimg.jpg");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+     margin-left: -8px; 
+    margin-right: -8px;
+    padding-top: 400px;
+    margin-top: 0px;
+  }
+  .hero-image p{
+    color:red;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+  
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 6px 15px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    font-family: an;
+    font-size: 20px;
+  }
+  
+  .hero-text button:hover {
+    background-color:#b9a260;
+    color: #f1f1f1;
+    font-family: an;
+  }
+
+  /* FOOTER */
+
+  body{
+    background-color: #4e4a3e;
+ }
+ 
+ .footer{
+    background-image: linear-gradient(rgba(66, 75, 68, 0.5), rgba(20, 10, 0, 15));
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  .footer h2{
+    text-align: center;
+    font-family: an;
+    text-decoration: overline;
+    color:#d9cb9e;
+  }
+  
+  .footer #f2{
+    color:red;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  .footer img{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-left: 50px;
+  }
+
+  #img2{
+    float:right; 
+    margin-right: 50px;
+  }
+  .fa-user-shield{
+    color :black;
+  }
+  
+  .footer h3{
+    padding-left: 400px;
+    padding-top: -200px;
+  }
+   
+  
+  .footer #f1{
+    color:#d9cb9e;
+  }   
+  
+  .footer #kk{
+    float:right;
+    padding-left: 10px;  
+  }
+  
+  .hero-image a:link{
+    text-decoration: none;  
+   
+  }
+  
+   hr{
+    margin-left:-7px;
+    margin-right: -7px;
+    color:red;
+  } 
+
+  .infos{
+    text-align: center;
+    color:rgb(161, 125, 125)
+  }
+
+  #star6{
+      color:#d9cb9e;
+      padding-right: 700px;
+  }

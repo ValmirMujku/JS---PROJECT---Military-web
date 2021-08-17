@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" href="CSS\Form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply_In_Form</title>
+   
+</head>
+
+<body>
+    <img src="images\usflag2.png" id = 'flag' >
+    <div class="first">
+        <h1><b><i class="fa fa-star"></i>Serve to Your Country<i class="fa fa-star"></i></b></h1>
+    </div>
+
+    <hr>
+
+    <div class = 'square'>
+    <div class = 'attention'>
+    <h2><b><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>   ATTENTION</b></h2>
+    </div>
+    <div class="beAware">
+        <h4><li><i>Please be aware: If you are not a resident of USA, you should consult in your municipality to get "SOCIAL
+                SECURITY NUMBER."</i></li></br>
+                <li><i>"DO NOT APPLY" if you are under 18.</i></li></h4>
+    </div></br>
+    </div> 
+        <h3 id='h3id'><b>"Official Application of 2021/22 Marine"</b></h3>
+    <div class="applyForm">
+        <form action="" id="forma">
+            <hr>
+            <label for="fName"><b><i class="fa fa-square"></i> First Name:</b></label>
+            <input type="text" id='fName' name='fName' placeholder="FirstName" required ><span id="fNameError"></span><br>
+
+            <label for="lName"><b><i class="fa fa-square"></i>  Last Name:</b></label>
+            <input type="text" id='lName' name='lName' placeholder="LastName" required><span id="lNameError"></span><br>
+
+            <label for="birthday"><b><i class="fa fa-square"></i>    Birthday:</b></label>
+            <input type="date" id="birthday" name="birthday"  required><span id="birthdayerror"></span></br>
+
+            <label for="idCard"><b><i class="fa fa-square"></i> ID Card NR:</b></label>
+            <input type="text" id='idCard' name='idCard' placeholder="ID Card Number"  required><span id="idCardError"></span><br>
+            
+            <label for="state"><b><i class="fa fa-square"></i>  State:</b></label>
+            <select id="state" name="state" required>
+                <option value="alabama">Alabama</option>
+                <option value="alaska">Alaska</option>
+                <option value="arizona">Arizona</option>
+                <option value="arkansas">Arkansas</option>
+                <option value="california">California</option>
+                <option value="colorado">Colorado</option>
+                <option value="florida">Florida</option>
+                <option value="georgia">Georgia</option>
+                <option value="maine">Maine</option>
+                <option value="minnesota">Minesota</option>
+                <option value="montana">Montana</option>
+                <option value="nevada">Nevada</option>
+                <option value="new-jersey">New Jersey</option>
+                <option value="new-york">New York</option>
+                <option value="oklahoma">Oklahoma</option>
+                <option value="texas">Texas</option>
+                <option value="vermont">Vermont</option>
+                <option value="washington">Washington</option>
+                <option value="west-virginia">West Virginia</option>
+            </select></br> 
+
+            <label for="phoneNumber"><b><i class="fa fa-square"></i>  Phone Number:</b></label>
+            <input type="text" id='phoneNumber' name='phoneNumber' placeholder="+1"  ><span id = 'phnError'></span><br>
+
+            <label for="email"><b><i class="fa fa-square"></i>  E-mail:</b></label>
+            <input type="text" id='email' name='email' placeholder="tim.harrison@example.com"  required><span id = 'emailError'></span><br>
+
+            <hr>
+            <div class='selectGender'>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><span id = 'genderError'></span>
+            </div></br>
+            <hr>
+
+            <label for="ssecurity"><b><i class="fa fa-square"></i>  SS Number:</b></label>
+            <input type="text" id='ssecurity' name='ssecurity' placeholder="SS Number" required  ><span id='ssError'></span></br>
+
+            <div class="diseases">
+                <label for='diseases'><b><i class="fa fa-square"></i>   Diseases:</b></label>
+                <input type="radio" id="NO" name="diseases" value="NO">
+                <label for="NO"  id = "did">NO</label></br>
+            </div><br>
+            
+            <label for='YES' id = "yesid"><b>If Yes, please  explain it:</b> </label></br>
+                <textarea id="YES" name="subject" placeholder="Write here..."></textarea><span id = 'diseasError'></span></br>  
+                <hr>
+
+                <input type="checkbox" id="terms" name="terms" value="conditions">
+                <label for="terms" id ='termsCon'> By using the MilitaryConnection.com web site, a division of BL, LLC, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT AND THAT YOU ACCEPT THE TERMS THEREOF. Please read the following terms carefully. If you do not agree to the terms and conditions of this Agreement, you may not access, view, obtain goods or services from, or otherwise use the MilitaryConnection.com web site, a division of BL, LLC.</label><span id='termsError'></span><br>
+
+                <input type="checkbox" id="terms2" name="terms" value="conditions">
+                <label for="terms" id ='termsCon2'> Data protection in the course of personal data processing is a major NRS concern therefore all data collected during the visits on our website are processed according to existing legal provisions.
+                    The hereby privacy policy refers to NRS customers and all other NRS website users. Personal data means any information about an identified or identifiable individual collected through this website.
+                    GDPR is the Regulation on the protection of individuals with regard to personal data processing
+                    and the free movement of such data (2016/679 of the European Parliament and of the Council of 27 April 2016) and repealing Directive 95/46 / EC General Data Protection). GDPR was published in the Official Journal of the European Union L119 / May 4th 2016, entered into force on May 25th 2016 and is applicable from May 25th 2018 throughout the European Union. The GDPR contains a set of rules designed to give citizens more control over the data they are able to identify.
+                    Our website may include links to other websites whose content is not under our control, therefore the company does not assume or accept any responsibility for the content of these websites, nor is responsible for the information protection strategies of other web pages or their content.
+                    The company undertakes not to disclose any information regarding your visits to this website excepting legal situations.
+                    In accordance with the legal provisions in force, the company has the obligation to manage the personal data you provide to us safely and only for the specified purposes.</label><span id = 'terms2Error'></span><br>
+
+             <button type="submit" form="forma" value="Submit">Submit</button>
+            <!-- <input type="submit" value="Submit"> -->
+        </form>
+    </div>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase.js"></script>
+
+    <script src="JS\ApplyInFormScript.js"></script>
+
+    
+</body>
+
+</html>

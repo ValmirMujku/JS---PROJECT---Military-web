@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS\TechnicalCSS.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = 'submittedForm'>
+        <h1><i>Your Military Feedback has been submitted to the US-M-ARMY Department for review.</i></h1>
+        <h5 id='timesubmitt'>Date and Time: </h5>
+        <p>You will receive the ANSWER via email and phone number within next 2 days.</p>
+        <h4>
+
+Unauthorized attempts to upload or change information on this Website are strictly prohibited and may be punishable under the Computer Fraud and Abuse Act of 1986 and the National Information Infrastructure Protection Act. Any unauthorized use or violation of these Terms of Service immediately and automatically terminates your right to use this Website and may subject you to legal liability. You agree not to use the Website for illegal purposes (including, without limitation, unlawful, harassing, libelous, invasion of another's privacy, abusive, threatening or obscene purposes), and you agree that you will comply with all laws, rules and regulations related to your use of the Website, including, without limitation, any applicable copyright. Appropriate legal action will be taken for any illegal or unauthorized use of the Website. <br>
+
+You may use this Website only for your personal and non-commercial purposes and subject to these Terms of Service, all applicable laws, rules and regulations and any agreements or terms with third parties to which you are subject. You may not use this Website for commercial purposes, such as to promote a product or service, without our prior written consent.</h4>
+
+    </div> 
+</body>
+<script>
+    //get the date and time of submit
+    var d = new Date();
+    var text = document.createTextNode(d.toLocaleString());
+    var el = document.getElementById('timesubmitt');
+    el.appendChild(text);
+
+    //disable back forward buton in browser.
+    function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+</script>
+
+</html> 

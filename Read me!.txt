@@ -1,0 +1,7 @@
+Ky eshte nje web aplikacion, i ndertuar nga Un(Valmir Mujku).
+
+Gjate punes kam koduar ne Visual Studio Code, eshte perdorur arkitektura e shtresave(layers), si databaze kam perdrorur firebase.
+
+Ne kete projekt kam ndertuar nje web-app te marinsave amerikane, nuk kam pranuar kerkesa te veqanta por ato i kam krijuar vete duke tentuar qe te ndertoj module te ndryshme me ato cka kam mesuar se fundi ne JavaScript(funksionet, DOM, loops, arrays etc).
+
+Vlen te ceket se ky projekt nuk i permbush rregullat e struktures dhe arkitektures te nje web aplikacioni industrial, ky thjeshte eshte punuar qe ti deshmoj disa njohuri rreth gjuhes JS.

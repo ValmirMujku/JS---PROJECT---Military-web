@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS\contactUsCSS.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html"><i class="fa fa-fw fa-home"></i>HOME</a></li>
+            <li><a href="academy.html"><i class="fa fa-handshake-o"></i>ACADEMY</a></li>
+            <li><a href="#"><i class="fa fa-cog"></i>SERVICES</a></li>
+            <li><a href="gallery.html"><i class="fa fa-crop"></i>GALLERIES</a></li>
+            <li><a href="#"><i class="fa fa-camera"></i>BLOG</a></li>
+            <li><a href="#"><i class="fa fa-forumbee"></i>FORUM</a></li>
+            <li><a href="contactUs.html"><i class="fa fa-fw fa-envelope"></i>CONTACT US </a></li>
+        </ul>
+    </div>
+
+    <!-- second part -->
+
+    <div class='contactimages'>
+    </div>
+
+    <!-- part three -->
+
+    <button class="tablink" onclick="openPage('feedback1', this, 'red')"><i class='fas fa-tools'></i> Technical and Site Feedback</button>
+<button class="tablink" onclick="openPage('feedback2', this, 'red')" id="defaultOpen"><i class='fas fa-plane'></i> Military Feedback</button>
+
+
+<div id="feedback1" class="tabcontent">
+   
+  <p>We make every effort to ensure this website provides current and useful information. If you have a comment, a question, or a correction that is not covered by the scope of our <b style="color:rgb(255, 0, 0)">Frequently Asked Questions</b>, please fill out the form below. If you have a general military question, please refer to the <b  style="color:rgb(255, 0, 0)" >MILITARY FEEDBACK - on the left side.</b><br><br> NOTE: Contact information will only be used to respond to your inquiries, requests and comments.</p><br><br>
+
+  <h3><i class='fas fa-tools'></i> Technical and Site Feedback</h3>
+
+<div class="container">
+  <form action="" id = 'forma1'>
+      <div>
+    <label for="fname">First Name</label>
+    <input type="text" id="First Name" name="firstname" placeholder="Your name.."  data-min-length="2"
+    class="validate-length" required>
+    <span class="validation-error no-display"></span>
+    <span id=spanfname class="validation-error no-display"></span>
+    </div>
+
+    <div> 
+    <label for="lname">Last Name</label>
+    <input type="text" id="Last Name" name="lastname" placeholder="Your last name.." data-min-length="3"
+    class="validate-length" required>
+    <span class="validation-error no-display"></span>
+    <span id='spanlname' class="validation-error no-display"></span>
+    </div>
+
+    <div>
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="e-mail" placeholder="tim.harrison@gmail.com" required>
+    <span id='spanemail' class="validation-error no-display"></span>
+    </div>
+
+    <div>
+    <label for="phoneNumber">Phone Number</label>
+    <input type="text" id="PhoneNumber" name="phoneNumber" placeholder="+1 000 0000000"  data-min-length="12"
+    class="validate-length" required>
+    <span class="validation-error no-display"></span>
+    <span id = 'spanphone' class="validation-error no-display"></span>
+    </div>
+
+    <label for="reason">Reason</label>
+    <select id="reason" name="reason">
+      <option value="BROKEN LINK">BROKEN LINK</option>
+      <option value="FACTUAL ERROR">FACTUAL ERROR</option>
+      <option value="REQUEST TO HAVE INSTALLATION, COMMAND OR ORGANIZATION ADDED TO A-Z">REQUEST TO HAVE INSTALLATION, COMMAND OR ORGANIZATION ADDED TO A-Z</option>
+      <option value="other">OTHER</option>
+    </select>
+
+    <div>
+    <label for="title">Exact title of installation, command or organization to be displayed</label>
+    <input type="text" id="title" name="title" data-min-length="10"
+    class="validate-length" required>
+    <span class="validation-error no-display"></span>
+    </div>
+
+    <label for="subject">Extra explain</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</div>
+
+<div id="feedback2" class="tabcontent">
+
+    <p>We make every effort to ensure this website provides current and useful information. If you have a comment, a question, or a correction that is not covered by the scope of our <b style="color:rgb(255, 0, 0)">Frequently Asked Questions</b>, please fill out the form below. If you have a general technical question, please refer to the <b  style="color:rgb(255, 0, 0)" >Technical and Site Feedbac - on the right side.</b><br><br> NOTE: Contact information will only be used to respond to your inquiries, requests and comments.</p><br><br>
+
+    <h3><i class='fas fa-plane'></i> Military Feedback</h3>
+
+    <div class="container">
+      <form action="" id = 'forma2'>
+        <div>
+        <label for="fname">First Name</label>
+        <input type="text" id="First name" name="firstname" placeholder="Your name.." data-min-length="2"
+        class="validate-length" required>
+        <span class="validation-error no-display"></span>
+        <span id ='spanfname2' class="validation-error no-display"></span>
+       </div>
+       
+          <div>
+        <label for="lname">Last Name</label>
+        <input type="text" id="Last name" name="lastname" placeholder="Your last name.." data-min-length="3"
+        class="validate-length" required>
+        <span class="validation-error no-display"></span>
+        <span id ='spanlname2' class="validation-error no-display"></span>
+        </div>
+        
+        <div>
+        <label for="email">E-mail</label>
+        <input type="text" id="email2" name="e-mail" placeholder="tim.harrison@gmail.com" required>
+        <span id='spanemail2' class="validation-error no-display"></span>
+        </div>
+        
+        <div>
+        <label for="phoneNumber">Phone Number</label>
+        <input type="text" id="phoneNumber2" name="phoneNumber" placeholder="+1 000 0000000" required>
+        <span id='spanphone2' class="validation-error no-display"></span>
+        </div>
+    
+        <label for="reason">Reason</label>
+        <select id="reason" name="reason">
+          <option value="POLITICAL">POLITICAL</option>
+          <option value="RELIGION">RELIGION</option>
+          <option value="RACIST">RACIST</option>
+          <option value="OTHER">OTHER</option>
+        </select>
+    
+       <div>
+        <label for="subject">Extra explain *OBLIGATORY</label>
+        <textarea id="Extra explain" name="subject" placeholder="Write something.." data-min-length="50"
+        class="validate-length" required style="height:200px"></textarea>
+        <span class="validation-error no-display"></span>
+    </div>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+</div>
+
+<!-- pjesa 4- apply -->
+
+ 
+<div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size:50px">Marine Academy 2021/22</h1>
+      <p>"Only US Resident"</p>
+      <button type='submit'><b><a href="ApplyInForm.html" target="_blank">APPLY</a></b></button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+
+  <div class="footer">
+    <h2><i>American State Department</i></h2>
+    <img src="images\logo.png">
+    <img src="images\logo.png" id = 'img2'>
+    <h3><b id="f1"><i class="fa fa-star" ></i> Commander-in-Chief:</b><i> "President Joe Biden"</i> </h3>
+    <h3><b id="f1"><i class="fa fa-star-half-empty"></i>  Chairman of the Joint Chiefs of Staff:</b> <i>"GEN Mark A. Milley, USA"</i> </h3>
+    <h3><b id="f1"><i class="fa fa-star-o"></i>   Secretary of the Army:</b><i> "John E. Whitley"</i> </h3>
+    <h3><b id="f2"><i class='fas fa-user-shield'></i>"Part of:</b><i id="f2">  Department of the Army,
+        The Pentagon - DAP"</i> </h3>
+          
+        <div class = 'infos'>
+          <h3>Address: 300 Steamboat Road Kings Point, NY 11024, Phone: 516-726-5800,  Business Hours: 8:00am-4:00pm ET, M-F. </h3>
+        </div>        
+        
+        
+    <hr>  
+
+    <i style="font-size:24px" class="fa" id="kk">&#xf1a0;</i>
+    <i style="font-size:24px" class="fa" id="kk">&#xf16a;</i>
+    <i style="font-size:24px" class="fa" id="kk">&#xf082;</i>
+    <i id="kk" class="material-icons" style="font-size:24px">share</i>
+    <i id="kk" class="material-icons" style="font-size:24px">notifications</i>
+  </div>
+  <p>© Copyright Verdict 2021 , a trading division of Verdict Media Limited. All rights reserved. This website is operated by Verdic, a trading division of Verdict Media Limited.</p>
+
+
+
+
+    <!-- SCRIPTS -->
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase.js"></script>
+
+    <script src="JS\contactUsScript.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</body>
+</html>
